@@ -1,0 +1,620 @@
+:: StoryTitle
+Grand Escape
+
+
+:: StoryData
+{
+  "ifid": "15207C5F-A70A-403D-AB35-1F3C12CF3FA9",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "Title Screen",
+  "zoom": 1
+}
+
+
+:: \ Escape 1 {"position":"900,600","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[It was a good effort trying to find fuel. Even though you wern't able to find any. ](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[You ran back to your ship as fast as you can and took off.](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[You were able you get pretty far away from the planet, and the army might have lost you but unfortunately you ran out of fuel. And you are now lost in the vast space but luckly you are on a pretty busy trade route.](stop:)]
+
+
+(live: 4s)[(t8n:"dissolve")[You could signal for help you but army might intercept the signal and know where you are and catch up to you. Or you can wait it out hoping that someone passing by might see you and help you. ](stop:)]
+
+(live: 5s)[(t8n:"dissolve")[Should you (text-style:"smear","fidget")[[Signal for help->Signal]] or (text-style:"smear","fidget")[[Wait for help->Wait]]](stop:)]
+
+
+
+:: \ Get to ship {"position":"1400,1200","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[Even though you got shot on the leg you were able to make it back to your ship without getting caught](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[You took off as fast as you can.](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[With enough fuel for your ship you (text-style:"smear","fidget")[[Got Away]] and the Army lost you](stop:)]
+
+
+
+
+:: Abandoned House {"position":"700,2600","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You choose to hide in the house hoping that the guard wont find you](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[But, unfortunately they found you becuase this is the only abandoned house in the area so they figured you might hide in there. ](stop:)]
+
+
+
+(live: 5s)[(t8n:"dissolve")[(display:"Game Over")](stop:)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:: Author {"position":"500,200","size":"100,100"}
+Made by: Tinyu Xie
+
+
+:: Board It {"position":"1400,1800","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You set everything up as fast as you can and took off.](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[(display:"Congrats")](stop:)]
+
+
+
+:: Bunker {"position":"1500,1000","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You went to the bunker thinking that you might find fuel there.](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[luckly you found just enough fuel for your ship.](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[(text-style:"smear","fidget")[[Go Back->Find Hub]]](stop:)]
+
+
+
+
+:: Car {"position":"800,2800","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You picked the car instead of the space ship thinking that the spaceship might be out of fuel.](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[Despite them shooting at you, you drove away as fast as you can. ](stop:)]
+
+
+(live: 5s)[(t8n:"dissolve")[(display:"Congrats")](stop:)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:: Cell {"position":"700,1650","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You have brought  a spoon and a screw driver back to the cell with you and you plan to(text-style:"smear","fidget") [[Escape->Jail Break]] ](stop:)]
+
+
+
+
+
+
+
+
+
+:: Congrats {"position":"500,400","size":"100,100"}
+(align:"=><=")+(box:"=XX=")+(text-style:"smear", "bold", "expand","blink")[[Congratulations You Escaped]]
+
+
+
+
+
+
+
+
+
+:: Congratulations You Escaped {"position":"500,500","size":"100,100"}
+
+
+
+
+
+
+
+
+
+
+(align:"=><=")+(box:"=XX=")+(text-style:"smear","bold", "expand",)[Thank You For Playing The Game!!]
+
+
+(align:"=><=")+(box:"=XX=")+(text-style:"smear","bold", "expand",)[[Play Again?->Title Screen]]
+
+
+
+
+
+
+:: Continue {"position":"1100,1600","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You didn't care and continued digging in the wall](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[The footstep kept getting closer and closer, and you heard a guard yelling](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[You were caught escaping the jail and was executed immediately ](stop:)]
+
+(live: 5s)[(t8n:"dissolve")[(display:"Game Over")](stop:)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:: Continue Find {"position":"1200,1100","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You started running back to your ship but at the same time the Army caught up to you. ](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[They started shooting towards you. ](stop:)]
+
+(live: 3s)[(t8n:"dissolve")["Pew Pew Pew"](stop:)]
+
+(live: 4s)[(t8n:"dissolve")["Ah"](stop:)]
+
+(live: 5s)[(t8n:"dissolve")[You got SHOT on the leg! You can't run any more.](stop:)]
+
+(live: 6s)[(t8n:"dissolve")[Should you (text-style:"smear","fidget")[[Find a place to hide ->Hide]] or (text-style:"smear","fidget")[[Get to your ship -> Get to ship]] despite getting shot on the leg. ](stop:)]
+
+
+:: Courtyard {"position":"1000,850","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You went to the courtyard hoping to find fuel](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[You tried to look at every corner but no luck. There aren't any fuel.](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[(text-style:"smear","fidget")[[Go Back->Find Hub]]](stop:)]
+
+
+
+
+:: Day {"position":"800,2200","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[Day time might be risky but, you can take advantage of the free time that everyone has.](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[During free time you went back to your cell and started climbing through the hole you dug.](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[But as you got out a guard spotted you. And the alarm is (text-style:"smear","fidget")[[Sounded]]](stop:)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:: Digging Again {"position":"900,1800","size":"100,100"}
+
+
+
+
+
+
+
+
+
+
+(live: 0.5s)[(t8n:"dissolve")[(align:"=><=")+(box:"=XX=")+(text-style:"bold","smear")[[Many Days Went By.....]]](stop:)]
+
+
+:: Eat {"position":"900,1175","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You went to the cafeteria and ate](stop:)]
+
+
+(live: 2s)[(t8n:"dissolve")[While you are in the cafeteria you found a inconspicuous button in the corner, you decide to] (text-style:"smear","fidget")[[click it]](stop:)]
+
+
+
+
+
+
+:: Escape {"position":"700,600","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You were able you get pretty far away from the planet and the army might have lost you, but unfortunately you ran out of fuel. And you are now lost in the vast space but luckly you are on a pretty busy trade route.
+](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[You could signal for help you but army might intercept the signal and know where you are and catch up to you. Or you can wait it out hoping that someone passing by might see you and help you. 
+](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[Should you (text-style:"smear","fidget")[[Signal for help->Signal]] or (text-style:"smear","fidget")[[Wait for help->Wait]]](stop:)]
+
+
+
+
+
+:: Fainted {"position":"1600,1800","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You DIED, because you got shot on the leg and lost too much blood.](stop:)]
+
+
+
+(live: 3s)[(t8n:"dissolve")[(display:"Game Over")](stop:)]
+
+
+:: Fight {"position":"700,1000","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You choose not to surrender and fight](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[With your crippled ship you started firing at the enemy ship.](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[Unfortunately with your crippled ship you weren't able to win the (text-style:"smear","fidget")[[Fight->Surrender]]](stop:)]
+
+
+
+
+:: Find {"position":"1100,600","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[Instead of risking running out of fuel and being lost in space you decide to run back and find fuel for your ship.](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[Even though you have ran pretty far, but if you continue to find fuel the army might catch up.](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[Now you have a choice to make, should you (text-style:"smear","fidget")[[Run back to your ship-> Escape 1]] or continue to (text-style:"smear","fidget")[[Find fuel for your ship->Find Hub]] despite the Army catching up.](stop:)]
+
+
+
+:: Find Hub {"position":"1200,800","size":"200,200"}
+(live: 1s)[(t8n:"dissolve")[You've decided to stay and find fuel even though the army is catching up.](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[You kept running, trying to find fuel, then you saw three paths that leads you to different places where you might be able to find fuel.](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[(if:(history: where its name contains "Courtyard")'s length is 0)[You can go to the (text-style:"smear","fidget")[[Courtyard]], ](if:(history: where its name contains "Courtyard")'s length is 1)[There is no fuel in the courtyard,](if:(history: where its name contains "Garage")'s length is 0)[ (text-style:"smear","fidget")[[Garage]] ](if:(history: where its name contains "Garage")'s length is 1)[ there is no fuel in the garage](if:(history: where its name contains "Bunker")'s length is 0)[ or the (text-style:"smear","fidget")[[Bunker]] to find fuel](if:(history: where its name contains "Bunker")'s length is 1)[. Fortunately you found fuel in the bunker.]](stop:)]
+
+
+
+(live: 4s)[(t8n:"dissolve")[(if:(history: where its name contains "Courtyard" or "Bunker" or "Garage" )'s length is 3)[Now you can go back to your (text-style:"smear","fidget") [[Ship->Continue Find]].]]]
+
+(live: 4s)[(t8n:"dissolve")[(if:(history: where its name contains "Bunker")'s length is 1)[Now you can go back to your (text-style:"smear","fidget") [[Ship->Continue Find]].]]]
+
+
+
+
+
+
+
+:: Game Over {"position":"500,300","size":"100,100"}
+(align:"=><=")+(box:"=XX=")+(text-style:"smear","bold", "expand","rumble")[[GAME OVER->Congratulations You Escaped]]
+
+
+
+
+:: Garage {"position":"1500,700","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You went to the garage knowing that there has to be fuel in the garage](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[But as you go into the garage there is only disappointment as no fuel were to be found.](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[(text-style:"smear","fidget")[[Go Back->Find Hub]]](stop:)]
+
+
+
+
+:: Got Away {"position":"1400,1400","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[When you arrived back to your ship you found out that the Army is actually already waiting for you there. ](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[There is a choice you have to make. Should you (text-style:"smear","fidget")[[Fight->shoot]] them or (text-style:"smear","fidget")[[Wait It Out]]](stop:)]
+
+
+
+
+
+
+:: Hide {"position":"900,1000","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You found a bush and decided to hide in there hoping that the Army won't find you.](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[But oops you farted, and the Army found you. ](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[They captured you and put you into the (text-style:"smear","fidget")[[Prison]]](stop:)]
+
+
+
+
+
+:: Jail Break {"position":"1000,1400","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You started digging a hole in the wall](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[But suddenly you heard someone walking pass you, should you (text-style:"smear","fidget")[[Stop]] digging or (text-style:"smear","fidget")[[Continue]] digging](stop:)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:: Many Days Went By..... {"position":"900,2000","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[After many days, you finally finished digging.](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[You just have to pick a time to escape.](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[Should it be (text-style:"smear","fidget")[[Day]] time or (text-style:"smear","fidget")[[Night]] time?](stop:)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:: Night {"position":"1000,2200","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[Escaping during the night is the best and safest way to escape](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[You started climbing through the hole you dug, while everyone is sleeping ](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[Under the dim moonlight you started running towards your freedom!](stop:)]
+
+(live: 5s)[(t8n:"dissolve")[(display:"Congrats")](stop:)]
+
+
+:: Pet it {"position":"525,1650","size":"100,100"}
+[(t8n:"dissolve")[You went to the work shop to work](stop:)]
+
+[(t8n:"dissolve")[You saw a cat and decided to] (text-style:"smear","fidget")[Pet it](stop:)]
+
+[Meow]
+
+[(t8n:"dissolve")[Suddenly you found a screw driver hidden in the corner of the workshop, and you picked it up and hid it in your clothes and went(text-style:"smear","fidget")[[ back->free time]]](stop:)]
+
+
+:: Prison {"position":"650,1200","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You are now in a high security jailand you must follow the rules](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[You are given a (text-style:"smear","fidget")[[free time]] every day](stop:)]
+
+
+:: Running Futher {"position":"900,2600","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You continued to run pass the house thinking that it is too easy for the guards to find you in there.](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[You kept running](stop:)]
+
+
+(live: 2s)[(t8n:"dissolve")[Then, in the distance you saw a (text-style:"smear","fidget")[[Car]] and a (text-style:"smear","fidget")[[Spaceship]] which one should you take?](stop:)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:: Signal {"position":"600,800","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[Because you didn't want to waste time on waiting for someone to help you. ](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[You signaled for help. ](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[Suddenly you heard something coming through your comms. It is the Army, they intercepted your SOS signal and found you.](stop:)]
+
+
+(live: 4s)[(t8n:"dissolve")[The Army asked you to surrender.](stop:)]
+
+(live: 5s)[(t8n:"dissolve")[Should you (text-style:"smear","fidget")[[Surrender->Surrender]] and give up or (text-style:"smear","fidget")[[Fight the Army->Fight]] using your ship crippled ship?](stop:)]
+
+
+
+:: Sleep {"position":"450,1250","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You have took a nap and felt more (text-style:"smear","fidget")[[energetic->free time]]](stop:)]
+
+
+
+:: Sounded {"position":"800,2400","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[The guards are chasing you](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[You started running as fast as you could.](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[Then, in the distance you saw a (text-style:"smear","fidget")[[Abandoned House]] should you hide in there or continue (text-style:"smear","fidget")[[Running Futher]]?](stop:)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:: Spaceship {"position":"1000,2800","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You picked the spaceship instead of the car thinking that they might catch up to you in a car](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[But as you get into the cockpit you realised that the ship is out of fuel. And you couldn'y take off.](stop:)]
+
+
+
+(live: 5s)[(t8n:"dissolve")[(display:"Game Over")](stop:)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:: Start Game {"position":"900,400","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You just took something very important from a very very bad person. His army is now chasing after you to get the "very important" thing back. 
+](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[You started running towards your space ship and plan to flee the planet. But when you jumped into the cockpit you realized that you don't have much fuel left.
+](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[You can sill make it off the planet but you risk running out of fuel and being lost in space, or you can run back to find fuel, but the army is slowly catching up to you.
+](stop:)]
+
+
+(live: 4s)[(t8n:"dissolve")[Should you (text-style:"smear","fidget")[[Continue to escape->Escape]] or (text-style:"smear","fidget")[[Stay and find fuel->Find]]
+](stop:)]
+
+
+
+
+
+
+:: Stop {"position":"900,1600","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You stopped digging, fearing that the guard might see you and hear you.](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[The footstep faded away as the guard walks by](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[You started  (text-style:"smear","fidget")[[Digging Again]]](stop:)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:: Surrender {"position":"500,1000","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You surrendered and the Army caught you. ](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[They brought you back and you were thrown into the (text-style:"smear","fidget")[[Prison->Prison]] ](stop:)]
+
+
+
+
+
+
+
+:: Title Screen {"position":"900,200","size":"100,100"}
+(live: 0.5s)[(t8n:"dissolve")[(align:"=><=")+(box:"=XX=")+(text-style:"bold","smear","shudder")[Grand Escape]](stop:)]
+
+
+
+
+(live: 1s)[(t8n:"dissolve")[(align:"=><=")+(box:"=XX=")+(text-style:"fade-in-out")[[//Start Game//->Start Game]]
+](stop:)]
+
+
+
+(live: 2s)[(t8n:"dissolve")[(align:"=><=")+(box:"=XX=")(display:"Author")](stop:)]
+
+
+:: Wait {"position":"800,800","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You choose to wait it out not risking the Army intercepting your signal](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[Fortunately someone found you](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[But instead of helping he actually alerted the Army, as they have sent out a bounty on you](stop:)]
+
+
+(live: 4s)[(t8n:"dissolve")[As your ship is crippled you can't go anywhere and the Army found you.](stop:)]
+
+(live: 5s)[(t8n:"dissolve")[The Army asked you to surrender.](stop:)]
+
+(live: 6s)[(t8n:"dissolve")[Should you (text-style:"smear","fidget")[[Surrender->Surrender]] and give up or (text-style:"smear","fidget")[[Fight the Army->Fight]] using your ship crippled ship?](stop:)]
+
+
+
+
+:: Wait It Out {"position":"1500,1600","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You choose to wait it out, but the Army doesn't seem to leaving](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[After a long wait you suddenly (text-style:"smear","fidget")[[Fainted]]](stop:)]
+
+
+
+
+
+:: Work {"position":"400,1475","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[You went to the work shop to work](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[You saw a cat and decided to] (text-style:"smear","fidget") [[Pet it]](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[Suddenly you found a screw driver hidden in the corner of the workshop, and you picked it up and hid it in your clothes and went(text-style:"smear","fidget")[[ back->free time]]](stop:)]
+
+
+
+
+:: click it {"position":"1050,1275","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")[Inside the small room you found a metal spoon that might be able to help you escape, and you took it (text-style:"smear","fidget")[[ back->free time]] with you](stop:)]
+
+
+:: free time {"position":"600,1350","size":"200,200"}
+(live: 1s)[(t8n:"dissolve")[(if:(history: where its name contains "Eat")'s length is 1)[You have eaten and you are now full.](if:(history: where its name contains "Sleep")'s length is 0)[ You can go(text-style:"smear","fidget") [[Sleep]] in your cell,](if:(history: where its name contains "Sleep")'s length is 1)[ You now felt more energetic] (if:(history: where its name contains "Eat")'s length is 0)[you can go to the dinning hall and(text-style:"smear","fidget") [[Eat]]]] (if:(history: where its name contains "Work")'s length is 0)[ or you can go to the workshop and (text-style:"smear","fidget")[[Work]]](stop:)]
+
+(live: 2s)[(t8n:"dissolve")[(if:(history: where its name contains "Sleep" or "Work" or "Eat" )'s length is 3)[You now have to go back to your(text-style:"smear","fidget") [[Cell]].]]]
+
+
+
+
+
+
+
+
+:: shoot {"position":"1300,1600","size":"100,100"}
+(live: 1s)[(t8n:"dissolve")["PEW, PEW, PEW"](stop:)]
+
+(live: 2s)[(t8n:"dissolve")["BOOOOOM!!!!"](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[You had an intense shoot out with the Army, luckly they have stormtrooper aim and missed most of their shots.](stop:)]
+
+(live: 3s)[(t8n:"dissolve")[You started running towards your ship and (text-style:"smear","fidget")[[Board It]]](stop:)]
+
+
