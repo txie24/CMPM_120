@@ -1,0 +1,264 @@
+{
+    "Title": "Grand Escape 1",
+    "Credits": "Made by: Tinyu Xie",
+    "InitialLocation": "Title Screen",
+    "Locations": {
+        "Title Screen": {
+            "Body": "Welcome to Grand Escape! Press start to begin your adventure.",
+            "Choices": [
+                {
+                    "Text": "Start Game",
+                    "Target": "Start Game"
+                }
+            ]
+        },
+        "Start Game": {
+            "Body": "You just took something very important from a very bad person. His army is now chasing after you to get it back. You started running towards your spaceship and plan to flee the planet. But when you jumped into the cockpit, you realized that you don't have much fuel left.",
+            "Choices": [
+                {
+                    "Text": "Try and escape",
+                    "Target": "Escape"
+                }
+            ]
+        },
+        "Escape": {
+            "Body": "You were able to get pretty far away from the planet and the army might have lost you, but unfortunately you ran out of fuel. You are now lost in space on a busy trade route. You could signal for help, but the army might intercept the signal and catch up to you.",
+            "Choices": [
+                {
+                    "Text": "Signal for help",
+                    "Target": "Signal"
+                },
+                {
+                    "Text": "Wait for help",
+                    "Target": "Wait"
+                }
+            ]
+        },
+        "Signal": {
+            "Body": "You didn't want to waste time waiting. You signaled for help. Suddenly, you heard something through your comms. It is the Army, they intercepted your SOS signal and found you.",
+            "Choices": [
+                {
+                    "Text": "Surrender",
+                    "Target": "Surrender"
+                },
+                {
+                    "Text": "Fight the Army",
+                    "Target": "Fight"
+                }
+            ]
+        },
+        "Wait": {
+            "Body": "You chose to wait it out, not risking the Army intercepting your signal. Fortunately, someone found you but instead of helping, he alerted the Army, as they had sent out a bounty on you.",
+            "Choices": [
+                {
+                    "Text": "Surrender",
+                    "Target": "Surrender"
+                },
+                {
+                    "Text": "Fight the Army",
+                    "Target": "Fight"
+                }
+            ]
+        },
+        "Fight": {
+            "Body": "You chose not to surrender and fight. With your crippled ship, you started firing at the enemy ship.",
+            "Choices": [
+                {
+                    "Text": "Surrender",
+                    "Target": "Surrender"
+                }
+            ]
+        },
+        "Surrender": {
+            "Body": "You surrendered and the Army caught you. They brought you back and you were thrown into a high-security prison.",
+            "Choices": [
+                {
+                    "Text": "Continue",
+                    "Target": "Prison"
+                }
+            ]
+        },        
+        "Prison": {
+            "Body": "You are now in a high-security jail and you must follow the rules. You are given free time every day.",
+            "Choices": [
+                {
+                    "Text": "Use free time",
+                    "Target": "free time"
+                }
+            ]
+        },
+        "free time": {
+            "Body": "During your free time, you can choose to eat, sleep, or work in the workshop.",
+            "Choices": [
+                {
+                    "Text": "Eat",
+                    "Target": "Eat"
+                },
+                {
+                    "Text": "Sleep",
+                    "Target": "Sleep"
+                },
+                {
+                    "Text": "Work",
+                    "Target": "Work"
+                }
+            ]
+        },
+        "Eat": {
+            "Body": "You went to the cafeteria and ate. While there, you found an inconspicuous button in the corner.",
+            "Choices": [
+                {
+                    "Text": "Press the button",
+                    "Target": "click it"
+                }
+            ]
+        },
+        "Sleep": {
+            "Body": "You took a nap and felt more energetic.",
+            "Choices": [
+                {
+                    "Text": "Continue free time",
+                    "Target": "free time"
+                }
+            ]
+        },
+        "Work": {
+            "Body": "You went to the workshop to work. There, you saw a cat and decided to pet it.",
+            "Choices": [
+                {
+                    "Text": "Pet the cat",
+                    "Target": "Pet it"
+                }
+            ]
+        },
+        "Pet it": {
+            "Body": "You petted the cat. Suddenly, you found a screwdriver hidden in the corner of the workshop, and you picked it up and hid it in your clothes.",
+            "Choices": [
+                {
+                    "Text": "Go back",
+                    "Target": "free time"
+                }
+            ]
+        },
+        "click it": {
+            "Body": "Inside the small room, you found a metal spoon that might help you escape, and you took it back with you.",
+            "Choices": [
+                {
+                    "Text": "Go back",
+                    "Target": "free time"
+                }
+            ]
+        },
+        "Congrats": {
+            "Body": "Congratulations! You Escaped.",
+            "Choices": [
+                {
+                    "Text": "Play Again?",
+                    "Target": "Title Screen"
+                }
+            ]
+        },
+        "Jail Break": {
+            "Body": "You started digging a hole in the wall but suddenly you heard someone walking past you. What do you do?",
+            "Choices": [
+                {
+                    "Text": "Stop digging",
+                    "Target": "Stop"
+                },
+                {
+                    "Text": "Continue digging",
+                    "Target": "Continue"
+                }
+            ]
+        },
+        "Stop": {
+            "Body": "You stopped digging, fearing that the guard might see or hear you. The footsteps faded away as the guard walked by. It's safe to continue now.",
+            "Choices": [
+                {
+                    "Text": "Start digging again",
+                    "Target": "Digging Again"
+                }
+            ]
+        },
+        "Continue": {
+            "Body": "You didn't care and continued digging in the wall, but the footsteps got closer and a guard caught you in the act. You've been executed.",
+            "Choices": [
+                {
+                    "Text": "Game Over",
+                    "Target": "Game Over"
+                }
+            ]
+        },
+        "Digging Again": {
+            "Body": "You resumed digging and after many days, you finally made a hole large enough to escape through. Now, you just have to pick the right time.",
+            "Choices": [
+                {
+                    "Text": "Escape during the day",
+                    "Target": "Day"
+                },
+                {
+                    "Text": "Escape during the night",
+                    "Target": "Night"
+                }
+            ]
+        },
+        "Day": {
+            "Body": "You decided to risk it during the day when everyone is occupied. As you climbed through the hole and out to freedom, a guard spotted you. The alarm sounded!",
+            "Choices": [
+                {
+                    "Text": "Run!",
+                    "Target": "Running Futher"
+                }
+            ]
+        },
+        "Night": {
+            "Body": "The cover of night is your ally. You climbed through the hole and under the dim moonlight, you ran towards your freedom!",
+            "Choices": [
+                {
+                    "Text": "Congratulations! You Escaped",
+                    "Target": "Congrats"
+                }
+            ]
+        },
+        "Running Futher": {
+            "Body": "You ran as fast as you could. In the distance, you see a car and a spaceship. Which one do you take?",
+            "Choices": [
+                {
+                    "Text": "Take the car",
+                    "Target": "Car"
+                },
+                {
+                    "Text": "Take the spaceship",
+                    "Target": "Spaceship"
+                }
+            ]
+        },
+        "Car": {
+            "Body": "You picked the car instead of the spaceship, thinking it would be more inconspicuous. Despite being shot at, you managed to drive away at breakneck speed.",
+            "Choices": [
+                {
+                    "Text": "Congratulations! You Escaped",
+                    "Target": "Congrats"
+                }
+            ]
+        },
+        "Spaceship": {
+            "Body": "You chose the spaceship, thinking it would be faster. But as you entered the cockpit, you realized it was out of fuel and you couldn't take off.",
+            "Choices": [
+                {
+                    "Text": "Game Over",
+                    "Target": "Game Over"
+                }
+            ]
+        },
+        "Game Over": {
+            "Body": "It's the end of the line. Your attempt to escape has failed, and now you've been caught. Maybe next time you'll choose differently.",
+            "Choices": [
+                {
+                    "Text": "Try Again?",
+                    "Target": "Title Screen"
+                }
+            ]
+        }
+    }
+}
